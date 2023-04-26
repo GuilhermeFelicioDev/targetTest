@@ -37,3 +37,16 @@ b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Est
 Meu código lê o arquivo .JSON e o salva num Array, o qual faço a leitura e contabilizo dos dados de maior faturamento, menor faturamento e a média mensal(dias sem faturamento foram desprezados, contabilizando 21 dias com faturamento real), depois de calculada a média, eu verifico os dias em que o faturamento foi maior e contabilizo ao final.
 
 -------------------------------------------------------------------------------------------------
+4) Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:
+
+SP – R$67.836,43
+RJ – R$36.678,66
+MG – R$29.229,88
+ES – R$27.165,48
+Outros – R$19.849,53
+
+Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve dentro do valor total mensal da distribuidora.
+
+Salvei os dados em um arquivo .JSON e meu código faz a leitura e calcula a somatória total e depois por estado separa o percentual de cada um no monetante mensal.
+
+-------------------------------------------------------------------------------------------------
