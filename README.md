@@ -50,3 +50,10 @@ Escreva um programa na linguagem que desejar onde calcule o percentual de repres
 Salvei os dados em um arquivo .JSON e meu código faz a leitura e calcula a somatória total e depois por estado separa o percentual de cada um no monetante mensal.
 
 -------------------------------------------------------------------------------------------------
+5) Escreva um programa que inverta os caracteres de um string.
+
+IMPORTANTE:
+a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
+b) Evite usar funções prontas, como, por exemplo, reverse;
+
+Meu Código Recebe uma String e faz a conversão para um Array de char e movimenta as posições desse Array para inverter os dados da String inicial.
