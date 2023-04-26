@@ -43,8 +43,8 @@ public class TerceiroPrograma {
                 if(valor>media)
                     dias++;
             }
-            System.out.printf("Menor faturamento R$ "+valorMenor+System.lineSeparator());
-            System.out.printf("Maior Faturamento R$ "+valorMaior);
-            System.out.printf("\nA quantidade de dias que o faturamento foi maior que a média mensal de R$ "+media+" foi de "+dias+" dias!");	
+            System.out.printf("Menor faturamento R$ %.2f.",valorMenor);
+            System.out.printf(System.lineSeparator()+"Maior Faturamento R$ %.2f.",valorMaior);
+            System.out.printf("\nTivemos neste mês "+dias+" dias que o faturamento foi maior que a média mensal de R$ %.2f!",media);	
     }
 }
